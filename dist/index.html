@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="h-screen relative">
+        <div
+          class="bg-slate-600 absolute flex justify-center w-full top-20 opacity-80"
+        >
+          <img src="odin-lined.png" alt="" class="h-40" />
+        </div>
+        <img src="pixel.gif" alt="" class="h-screen" />
+      </div>
+      <div class="h-screen p-36 flex items-center justify-center bg-slate-600">
+        <form action="">
+          <div class="grid grid-cols-2 gap-5">
+            <input
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              placeholder="Last Name*"
+              required
+              name="user_lastName"
+            />
+            <input
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              placeholder="First Name*"
+              required
+              name="user_firstName"
+            />
+            <input
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="email"
+              placeholder="Email*"
+              name="user_email"
+              required
+            />
+            <input
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              placeholder="Phone Number*"
+              name="user_phoneNumber"
+              required
+            />
+
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password*"
+              required
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            />
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Confirm Password*"
+              name="password"
+              required
+              class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            />
+          </div>
+          <div
+            class="flex my-4 w-1/6 rounded-lg transition duration-150 ease-in-out hover:-translate-y-1 hover:scale-110"
+          >
+            <button type="submit" class="">
+              <img src="icons8-submit-48.png" alt="Submit png" />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
